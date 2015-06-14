@@ -2,7 +2,6 @@ var app = angular.module('myApp', []);
 app.controller('MonteController', ['$http', '$log', '$scope', function($http, $log, $scope) {
 	$scope.log=$log;
 	$log.log('kenny is evil');
-	$scope.value = 1;
 	$scope.InitFund = 1;
 	$scope.Times = 1;
 	$scope.Years = 1;
