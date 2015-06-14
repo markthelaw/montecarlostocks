@@ -22,8 +22,8 @@ app.controller('MonteController', ['$http', '$log', '$scope', function($http, $l
 		var object = {
 			Times : parseInt($scope.Times),
 			Years : parseInt($scope.Years),
-			Mean  : parseFloat($scope.Mean),
-			Stdv  : parseFloat($scope.Stdv),
+			Mean  : parseFloat($scope.Mean)/100,
+			Stdv  : parseFloat($scope.Stdv)/100,
 			
 		}
 
