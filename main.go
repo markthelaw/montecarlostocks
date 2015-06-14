@@ -29,7 +29,6 @@ func main() {
 	
 	fmt.Println("listening...")
 	
-	serveSingle("/favicon.ico", "./web/favicon.ico")
 	
 	http.Handle("/", r)
 
