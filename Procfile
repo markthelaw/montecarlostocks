@@ -1,1 +1,1 @@
-web: MonteCarloStocks 
+web: MonteCarloStocks
