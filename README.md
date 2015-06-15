@@ -1,4 +1,4 @@
-# montecarlostocks
+# Monte Carlo Stocks
 Simple demo of monte carlo simultion to estimate stock or index based on mean and standard deviation.
 
 ### Server : GO
