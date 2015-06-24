@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Monte Carlo - Stocks by markthelaw</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Monte Carlo - Stocks</h1>
+        <h2>Simple demo using GO to calculate estimations of a stock or index based on only mean and standard deviation</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/markthelaw/montecarlostocks/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/markthelaw/montecarlostocks/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/markthelaw/montecarlostocks" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="monte-carlo-stocks" class="anchor" href="#monte-carlo-stocks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Monte Carlo Stocks</h1>
+
+<p>Simple demo of monte carlo simultion to estimate stock or index based on mean and standard deviation.</p>
+
+<h3>
+<a id="server--go" class="anchor" href="#server--go" aria-hidden="true"><span class="octicon octicon-link"></span></a>Server : GO</h3>
+
+<h3>
+<a id="frontend--angularjs-bootstrap-chartjs" class="anchor" href="#frontend--angularjs-bootstrap-chartjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>FrontEnd : AngularJS, Bootstrap, ChartJS</h3>
+
+<p>GO does the math calculation and send it back to frontend, it also uses a homebrew stat library: <a href="https://github.com/markthelaw/GoStatHelper">https://github.com/markthelaw/GoStatHelper</a>
+Using inverse error function.</p>
+
+<p>It uses AngularJS to have a Ajax call to send/receive data from server and update the conclusion</p>
+
+<p>It uses chartJS to draw the 2 charts.</p>
+
+<h3>
+<a id="try-it-on-heroku-server-monte-carlo-stocks---heroku-" class="anchor" href="#try-it-on-heroku-server-monte-carlo-stocks---heroku-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Try it on heroku server: <a href="http://aqueous-sea-9400.herokuapp.com/web/">Monte Carlo Stocks - Heroku </a>
+</h3>
+
+<h3>
+<a id="for-example-sp-500-mean-and-standard-deviation-can-be-found-here--sp-500---yahoo-finance" class="anchor" href="#for-example-sp-500-mean-and-standard-deviation-can-be-found-here--sp-500---yahoo-finance" aria-hidden="true"><span class="octicon octicon-link"></span></a>For example S&amp;P 500 mean and standard deviation can be found here : <a href="http://finance.yahoo.com/q/rk?s=SPY+Risk">S&amp;P 500 - Yahoo Finance</a>
+</h3>
+
+<h5>
+<a id="note-increase-trials-will-dramatically-slow-down-the-drawing-of-the-chart-max-for-runs-is-around-1000" class="anchor" href="#note-increase-trials-will-dramatically-slow-down-the-drawing-of-the-chart-max-for-runs-is-around-1000" aria-hidden="true"><span class="octicon octicon-link"></span></a>Note: Increase trials will dramatically slow down the drawing of the chart, max for runs is around 1000.</h5>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
